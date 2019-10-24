@@ -1,0 +1,234 @@
+/************头部开始************/
+.title{
+    width: 100%;
+    height: 60px;
+    font-size: 0;
+}
+.title>span{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px 3%;
+}
+.title>span:nth-child(2){
+    font-size: 16px;
+    color: #888888;
+}
+.title>span:first-child{
+    width: 40px;
+    height: 40px;
+    background: #3596FD;
+    border-radius: 40px;
+    color: rgba(255,255,255,1);
+    text-align: center;
+
+}
+.title>span:last-child{
+    float: right;
+    color: #C2C2C2;
+}
+/************头部结束************/
+
+/************客户详情开始************/
+.curstomer{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+}
+.curstomer>.curinfo{
+    width: 70%;
+    height: 158px;
+}
+.curinfo>p{
+    font-size: 0;
+}
+.curinfo>p>span{
+    font-size: 14px;
+    color: #101010;
+    display: inline-block;
+    text-align: left;
+}
+.curinfo>p>span:first-child{
+    font-size: 13px;
+    color: #D4D4D4;
+    margin: 0 3%;
+    height: 30px;
+    line-height: 30px;
+}
+.curstomer>.curstate{
+    width: 30%;
+    height: 158px;
+}
+.curstate>span{
+    display: inline-block;
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #8BC34A;
+    color: #8BC34A;
+    position: absolute;
+    top: 3%;
+    right: 4%;
+}
+/************客户详情结束************/
+
+/************精品开始************/
+.goods{
+    width: 100%;
+    height: auto;
+    /*background: yellow;*/
+}
+.goods>p{
+    width: 100%;
+    height: 35px;
+    font-size: 0;
+    /*line-height: 35px;*/
+}
+.goods>p>span{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    /*background: yellow;*/
+}
+.goods>p>span:first-child{
+    width: 20%;
+    margin: 0 3% ;
+    /*background: red;*/
+}
+.goods>p>span:nth-child(2){
+    /*margin: 0 10px ;*/
+    width: calc(100% - 9% - 25% - 24px);
+    text-align: right;
+    /*background: red;*/
+}
+.goods>p>span:last-child{
+    width: 24px;
+    height: 24px;
+    background: #888888;
+    border-radius: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 24px;
+    float: right;
+    margin: 6px 3% 5px 5%;
+    font-weight: bolder;
+}
+/************精品详情开始*******************/
+.goods>.goodsinfo{
+    width: 100%;
+    height: auto;
+    /*background: greenyellow;*/
+}
+.goodsinfo>.approval{
+    width: 93%;
+    margin: 14px 0 14px 7%;
+    /*background: yellow;*/
+    height: auto;
+}
+.goodsinfo>.approval>.app_con{
+    width: 100%;
+    min-height: 69px;
+    height: auto;
+    /*background: red;*/
+    font-size: 0;
+    border-left: 3px solid #D4D4D4;
+    box-sizing: border-box;
+}
+.goodsinfo>.approval>.app_con:last-child{
+    border: 0;
+}
+.goodsinfo>.approval>.app_con>.content:not(:first-child)>p>span:first-child{
+    display: none;
+}
+.goodsinfo>.approval>.app_con>.content>p>span{
+    display: inline-block;
+    font-size: 14px;
+}
+.goodsinfo>.approval>.app_con>.content>p>span:first-child{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #3596FD;
+    color: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    left: 2%;
+}
+.goodsinfo>.approval>.app_con>.content>p>span:nth-child(2){
+    width: calc(100% - 53% - 40px);
+    color: #888888;
+    font-size: 16px;
+    /*background: yellow;*/
+    margin-left: 12%;
+    font-weight: bolder;
+}
+.goodsinfo>.approval>.app_con>.content>p>span:last-child{
+    width: 48%;
+    text-align: right;
+    height: 44px;
+    line-height: 44px;
+    color: #C2C2C2;
+    /*background: blueviolet;*/
+}
+.goodsinfo>.approval>.app_con>.content>.answer{
+
+}
+.app_con>.content>.answer>p{
+    font-size: 14px;
+    width: 88%;
+    margin-left: 12%;
+}
+
+/************精品详情结束*******************/
+
+/************精品结束************/
+
+/************选装项目开始************/
+
+/************选装项目结束************/
+
+/************附件照片开始************/
+
+/************附件照片结束************/
+
+/************销售价开始************/
+
+/************销售价结束************/
+
+/************审批进度开始************/
+
+/************审批进度结束************/
+
+/**************footer***********/
+.footer{
+    width: 100%;
+    height: 67px;
+    /*background: red;*/
+    color: #888888;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    font-size: 0;
+    border-top: 20px solid #f5f5f5;
+    box-sizing: border-box;
+}
+.footer>button{
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 16px;
+    float: right;
+}
+.footer>button:first-child{
+    background: #FFFFFF;
+    margin: 16px 5%;
+}
+.footer>button:last-child{
+    background: #0466FB;
+}
